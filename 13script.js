@@ -167,7 +167,7 @@ function setupOrderForm() {
         // REDIRECT AFTER 1 SECOND
         setTimeout(function() {
 
-            window.location.href = "1index.html";
+            window.location.href = "index.html";
 
         }, 1000);
     });
@@ -201,7 +201,7 @@ function setupLoginForm() {
         alert("✅ Welcome " + username);
 
         // GO TO HOME PAGE
-        window.location.href = "1index.html";
+        window.location.href = "index.html";
     });
 }
 // FILTER PRODUCTS
