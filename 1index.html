@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopZone</title>
+    <link rel="stylesheet" href="2style.css">
+</head>
+<body>
+<script src="13script.js"></script>
+<script src="14script.js"></script>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="top-bar">
+        <p>Free Shipping on Orders Above ₹999</p>
+    </div>
+
+    <div class="navbar">
+        <div class="logo">ShopZone</div>
+        
+        <input type="text" placeholder="Search products..." class="search-box">
+
+        <nav>
+            <ul>
+                <li><a href="4home.html">Home</a></li> 
+                <li><a href="3shop.html">Shop</a></li>                
+                <li><a href="4category.html">Categories</a></li>
+                <li><a href="12deals.html">Deals</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+
+        <div class="icons">
+            <a href="login.html">
+    <button class="login-btn">Login / Signup</button>
+</a>
+            
+            <a href="15cart.html">
+    <span>🛒</span>
+</a>
+        </div>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Big Fashion Sale</h1>
+    <p>Up to 70% OFF on all items</p>
+    <button>Shop Now</button>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-container">
+        <a class="category"  href="5men.html"><button>Men</button></a>
+        <a  class="category" href="6women.html"><button>Women</button></a>
+        <a class="category"  href="7electronics.html"><button>Electronics</button></a>
+
+    </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Shoes">
+            <h3>Running Shoes</h3>
+            <p>₹1499</p>
+            <button onclick="addToCart('Running Shoes', 1499)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="Smart Watch">
+            <h3>Smart Watch</h3>
+            <p>₹2999</p>
+            <button onclick="addToCart('Smart Watch', 2999)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg" alt="Headphones">            <h3>Headphones</h3>
+            <p>₹999</p>
+            <button onclick="addToCart('Headphones', 999)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg" alt="Jacket">            <h3>Jacket</h3>
+            <p>₹1999</p>
+            <button onclick="addToCart('Jacket', 1999)">Add to Cart</button>        
+        </div>
+
+    </div>
+</section>
+
+<!-- BANNER -->
+<section class="banner">
+    <h2>Mid Season Sale</h2>
+    <p>Flat 40% OFF</p>
+
+</section>
+
+<!-- MORE PRODUCTS -->
+<section class="products">
+    <h2>Latest Arrivals</h2>
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505" alt="Backpack">
+            <h3>Backpack</h3>
+            <p>₹799</p>
+<button onclick="addToCart('Backpack', 799)">Add to Cart</button>        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083" alt="Sunglasses">
+            <h3>Sunglasses</h3>
+            <p>₹499</p>
+            <button onclick="addToCart('Sunglasses', 499)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg" alt="Mobile Cover">
+            <h3>Mobile Cover</h3>
+            <p>₹299</p>
+            <button onclick="addToCart('Mobile Cover', 299)">Add to Cart</button>
+
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.pexels.com/photos/63703/pexels-photo-63703.jpeg" alt="Speaker">            <h3>Bluetooth Speaker</h3>
+            <p>₹1299</p>
+            <button onclick="addToCart('Speaker', 1299)">Add to Cart</button>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer id="contact"  class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>ShopZone</h3>
+            <p>Your one-stop online shop for everything.</p>
+        </div>
+
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li>Home</li>
+                <li>Shop</li>
+                <li>About</li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Customer Service</h4>
+            <ul>
+                <li>Returns</li>
+                <li>Shipping</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Email: support@shopzone.com</p>
+            <p>Phone: +91 9876543210</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 ShopZone | All Rights Reserved</p>
+    </div>
+</footer>
+</body>
+</html>

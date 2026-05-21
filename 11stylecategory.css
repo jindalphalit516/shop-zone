@@ -1,0 +1,116 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* PAGE TITLE */
+h1 {
+    margin: 20px 0;
+    font-size: 32px;
+}
+
+/* PRODUCT GRID */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+/* PRODUCT CARD */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+    background: white;
+}
+
+/* HOVER EFFECT */
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* PRODUCT IMAGE */
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* PRODUCT TEXT */
+.product-card h3 {
+    margin: 10px 0 5px;
+}
+
+.product-card p {
+    color: #555;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.product-card button {
+    margin-top: 10px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    background: #ff6f61;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* BUTTON HOVER */
+.product-card button:hover {
+    background: #e65c50;
+}
+
+/* CENTER TITLE */
+body {
+    text-align: center;
+    background: #f9f9f9;
+}
+
+/* DEAL HERO */
+.deals-hero {
+    background: linear-gradient(to right, #ff6f61, #ff9966);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/* STRIKETHROUGH PRICE */
+.product-card del {
+    color: gray;
+    margin-right: 5px;
+}
+
+/* BUY BUTTON */
+.product-card button {
+    background: #28a745;
+}
+
+.product-card button:hover {
+    background: #218838;
+}
+
+.product-card button {
+    margin-top: 10px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    background: #ff6f61;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background: #e65c50;
+}

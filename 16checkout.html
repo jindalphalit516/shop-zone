@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout</title>
+
+    <link rel="stylesheet" href="2style.css">
+
+    <style>
+
+        .checkout-container {
+
+            width: 400px;
+            margin: 50px auto;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+
+        .checkout-container h1 {
+
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .checkout-container input,
+        .checkout-container textarea,
+        .checkout-container select {
+
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .checkout-container button {
+
+            width: 100%;
+            padding: 12px;
+            background: #ff6f61;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="checkout-container">
+
+    <h1>Order Details</h1>
+
+    <form id="order-form">
+
+        <input type="text" placeholder="Full Name" required>
+
+        <input type="tel" placeholder="Phone Number" required>
+
+        <textarea placeholder="Address" required></textarea>
+
+        <select required>
+
+            <option value="">Select Payment Method</option>
+
+            <option>Cash on Delivery</option>
+
+            <option>UPI</option>
+
+            <option>Credit Card</option>
+
+        </select>
+
+        <button type="submit">
+            Place Order
+        </button>
+
+    </form>
+
+</div>
+
+<script src="13script.js"></script>
+
+</body>
+</html>

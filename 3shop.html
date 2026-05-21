@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - ShopZone</title>
+    <link rel="stylesheet" href="2style.css">
+</head>
+<body>
+<script src="13script.js"></script>
+<!-- HEADER (same as homepage) -->
+<header class="header">
+    <div class="top-bar">
+        <p>Free Shipping on Orders Above ₹999</p>
+    </div>
+
+    <div class="navbar">
+        <div class="logo">ShopZone</div>
+
+        <nav>
+            <ul>
+                <li><a href="1index.html">Home</a></li>
+                <li><a href="3shop.html">Shop</a></li>
+                <li><a href="4category.html">Categories</a></li>
+                <li><a href="12deals.html">Deals</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- SHOP HERO -->
+<section class="shop-hero">
+    <h1>Our Shop</h1>
+    <p>Browse all products</p>
+</section>
+
+<!-- FILTER BAR -->
+<section class="filter-bar">
+
+    <!-- CATEGORY FILTER -->
+    <select id="category-filter">
+
+        <option value="all">All Categories</option>
+        <option value="men">Men</option>
+        <option value="women">Women</option>
+        <option value="electronics">Electronics</option>
+
+    </select>
+
+    <!-- PRICE FILTER -->
+    <select id="price-filter">
+
+        <option value="default">Sort By Price</option>
+        <option value="low">Low to High</option>
+        <option value="high">High to Low</option>
+
+    </select>
+
+</section>
+
+<!-- ALL PRODUCTS -->
+<section class="products">
+
+    <h2>All Products</h2>
+
+    <div class="product-grid">
+
+        <!-- SHOES -->
+        <div class="product-card"
+             data-category="men"
+             data-price="1499">
+
+            <img src="https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg">
+
+            <h3>Shoes</h3>
+
+            <p>₹1499</p>
+
+            <button onclick="addToCart('Shoes', 1499)">
+                Add to Cart
+            </button>
+
+        </div>
+
+        <!-- WATCH -->
+        <div class="product-card"
+             data-category="electronics"
+             data-price="2999">
+
+            <img src="https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg">
+
+            <h3>Watch</h3>
+
+            <p>₹2999</p>
+
+            <button onclick="addToCart('Watch', 2999)">
+                Add to Cart
+            </button>
+
+        </div>
+
+        <!-- HEADPHONES -->
+        <div class="product-card"
+             data-category="electronics"
+             data-price="999">
+
+            <img src="https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg">
+
+            <h3>Headphones</h3>
+
+            <p>₹999</p>
+
+            <button onclick="addToCart('Headphones', 999)">
+                Add to Cart
+            </button>
+
+        </div>
+
+        <!-- JACKET -->
+        <div class="product-card"
+             data-category="men"
+             data-price="1999">
+
+            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg">
+
+            <h3>Jacket</h3>
+
+            <p>₹1999</p>
+
+            <button onclick="addToCart('Jacket', 1999)">
+                Add to Cart
+            </button>
+
+        </div>
+
+        <!-- SPEAKER -->
+        <div class="product-card"
+             data-category="electronics"
+             data-price="1299">
+
+            <img src="https://images.pexels.com/photos/63703/pexels-photo-63703.jpeg">
+
+            <h3>Speaker</h3>
+
+            <p>₹1299</p>
+
+            <button onclick="addToCart('Speaker', 1299)">
+                Add to Cart
+            </button>
+
+        </div>
+
+        <!-- MOBILE COVER -->
+        <div class="product-card"
+             data-category="electronics"
+             data-price="299">
+
+            <img src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg">
+
+            <h3>Mobile Cover</h3>
+
+            <p>₹299</p>
+
+            <button onclick="addToCart('Mobile Cover', 299)">
+                Add to Cart
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>ShopZone</h3>
+            <p>Your one-stop shop.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
